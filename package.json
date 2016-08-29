@@ -1,0 +1,18 @@
+{
+  "name": "js-observer",
+  "version": "1.0.0",
+  "description": "simple observer class in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "author": {
+    "name": "ingpdw",
+    "email": "ingpdw@gmail.com"
+  },
+  "repository": "https://github.com/ingpdw/js-observer",
+  "license": "MIT",
+  "dependencies": {}
+}
